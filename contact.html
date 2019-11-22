@@ -3,11 +3,100 @@
   <head>
     <meta charset="utf-8">
     <title>Cars Marketplace - Tema TW HTML/CSS</title>
-
-    <link rel="stylesheet" type="text/css" href="css/base.css"> <!-- HTML4 compatibility -->
-  </head>
+    
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/forms.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  </head> 
 
 <body>
+<div class="header">
+  <div id="menu">
+    <ul>
+       <li class='active'><a href='index.html'><span>Home</span></a></li>
+       <li class='has-sub'><a href='#'><span>Products</span></a>
+          <ul>
+             <li><a href='item.html'><span>Product 1</span></a></li>
+             <li><a href='item.html'><span>Product 2</span></a></li>
+             <li><a href='item.html'><span>Product 3</span></a></li>
+             <li><a href='item.html'><span>Product 4</span></a></li>
+          </ul>
+       </li>
+       <li><a href='aboutus.html'><span>About</span></a></li>
+       <li class='last'><a href='contact.html'><span>Contact</span></a></li>
+    </ul>
+  </div>
+  <div class="title-container">
+    <div class="title"><h1>Cars Marketplace</h1></div>
+  </div>
+</div>
+
+<div class="content">
+  <h1> Contact Us!
+    <small>Do you have a question about our services? Write us using the form below.</small>
+  </h1>
+  <section class="contact-wrap">
+    <form action="" class="contact-form">
+      <div class="col-sm-6">
+        <div class="input-block">
+          <label for="">First Name</label>
+          <input type="text" class="form-control">
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="input-block">
+          <label for="">Last Name</label>
+          <input type="text" class="form-control">
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="input-block">
+          <label for="">Email</label>
+          <input type="text" class="form-control">
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="input-block">
+          <label for="">Message Subject</label>
+          <input type="text" class="form-control">
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="input-block textarea">
+          <label for="">Drop your message here</label>
+          <textarea rows="3" type="text" class="form-control"></textarea>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="input-block textarea">
+          <label for="">Drop a image if you want to tell us something more</label>
+            <br/>
+          <input type="file" class="form-control">
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <button class="square-button">Send</button>
+      </div>
+    </form>
+  </section>
+</div>
+
+
+
+<div class="footer">
+  <div style="overflow: auto;">
+    <div class="left">Copyright Etc</div>
+    <div class="right">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/contactform.js"></script>
 
 </body>
 </html>

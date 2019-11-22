@@ -3,11 +3,93 @@
   <head>
     <meta charset="utf-8">
     <title>Cars Marketplace - Tema TW HTML/CSS</title>
-
-    <link rel="stylesheet" type="text/css" href="css/base.css"> <!-- HTML4 compatibility -->
-  </head>
+    
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  </head> 
 
 <body>
+<div class="header">
+  <div id="menu">
+    <ul>
+       <li class='active'><a href='index.html'><span>Home</span></a></li>
+       <li class='has-sub'><a href='#'><span>Products</span></a>
+          <ul>
+             <li><a href='item.html'><span>Product 1</span></a></li>
+             <li><a href='item.html'><span>Product 2</span></a></li>
+             <li><a href='item.html'><span>Product 3</span></a></li>
+             <li><a href='item.html'><span>Product 4</span></a></li>
+          </ul>
+       </li>
+       <li><a href='aboutus.html'><span>About</span></a></li>
+       <li class='last'><a href='contact.html'><span>Contact</span></a></li>
+    </ul>
+  </div>
+  <div class="title-container">
+    <div class="title"><h1>Cars Marketplace</h1></div>
+  </div>
+</div>
+
+<div class="item-pane">
+    <table class="item-table">
+        <tr>
+            <td class="product-img">
+                <img src="img/carimg.jpg" />
+            </td>
+            <td>
+                <table class="item-specs">
+                    <tr><td>Vehicle Brand</td><td>Mercedes-Benz</td><td>Vehicle name</td><td>S-Klasse 3-door Coupe</td></tr>
+                    <tr><td>Engine capacity</td><td>3.0L TDI</td><td>Top Speed</td><td>267km/h</td></tr>
+                    <tr><td>Engine power</td><td>365hp / 4400rpm</td><td>0-100km/s Acceleration</td><td>7.3s</td></tr>
+                    <tr><td>Engine torque</td><td>648nm</td><td>Induction type</td><td>BiTurbo Charged</td></tr>
+                    <tr><td>Average consumption</td><td>9.4L/100km</td><td>Headlights type</td><td>HID Xenon</td></tr>
+                    <tr><td>Vehicle mass</td><td>1890kg</td><td>Emissions standard</td><td>EURO6 DE</td></tr>
+                    <tr><td>Max allowed mass</td><td>2234kg</td><td>Country of origin</td><td>Germany</td></tr>
+                    <tr><td>Vehicle class</td><td>Large Saloon</td><td>Brake size</td><td>323mm</td></tr>
+                    <tr><td>Current odometer</td><td>122.657km</td><td>Towing capacity</td><td>-----</td></tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div class="item-details">
+                    <center><h1>Premium car for sale</h1></center>
+                    <center><span style="color: darkcyan;"><h4>Financing plans available!</h4></span></center>
+
+                    <p>The Vision EQS concept that Mercedes-Benz unveiled during the 2019 Frankfurt Motor Show previews a high-tech flagship scheduled to arrive in showrooms in the early 2020s. It will inevitably overlap with the next-generation S-Class also due out in a couple of years, but it won't replace the model. The German firm announced it plans to sell two range-topping cars side by side, and let customers decide which one best represents the comfort and luxury the three-pointed star stands for.
+
+                    The production variant of the Vision EQS (pictured) will slot at the top of the EQ sub-brand that Mercedes created to group its electric models under. It will inaugurate a modular platform currently being developed specifically to underpin battery-powered vehicles, and its design language will permeate into other, smaller EQ-badged models scheduled to arrive during the 2020s.
+
+                    Meanwhile, the S-Class will carry on as the flagship of the entire Mercedes-Benz family. "It’s the symbolic representation of our purpose, our deeper meaning, our raison d’être. The reason we get up in the morning," Mercedes-Benz boss Ola Källenius told Australian website CarAdvice.
+
+                    It's safe to bet the next S-Class will be available with hybrid power, and we wouldn't be surprised if the entire lineup offers some degree of electrification, but a purely electric model is off the table. Customers who no longer want to pump gas will need to step up to the EQS. Similarly, stylists will differentiate the two models by giving the EQS a more forward-thinking, LED-intensive look, while the S-Class will return with an elegant, stately design that falls in line with the nameplate's heritage.
+
+                    Insiders suggest Mercedes-Benz will introduce a new S-Class in 2020, possibly at the Geneva auto show, and sales will begin during the 2021 model year. The EQS might not arrive until the 2021 calendar year, meaning it could wear a 2022 label when it reaches American showrooms. Both sedans are well into their respective development process, and we've seen camouflaged test mules racking up miles in the most hostile regions the planet has to offer.
+
+                    Mercedes-Benz will inaugurate this two-model strategy when it releases the battery-powered EQC to the public in early 2020. It's about the same size as the GLC, but the two models will share showroom space in the foreseeable future. Customers who prefer a gasoline engine will still be able to get one, and those willing to pay a significant premium for an electric crossover will have an option that suits them. Similarly, Volkswagen will introduce the eighth-generation Golf just a few months after unveiling the comparably-sized ID.3.</p>
+                    
+                    <center><iframe width="600px" height="335px" src="https://www.youtube.com/embed/pTiiHgqYwco" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                </div>
+                <table class="item-finals"><tr>
+                    <td class="price">100,430 $ &nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 12px;">(VAT included)</span></td>
+                    <td><a style="text-decoration: none;" href="#"><div class="buybtn" style="float: right;">Buy it</div></a></td>
+                    </tr></table>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div class="footer">
+  <div style="overflow: auto;">
+    <div class="left">Copyright Etc</div>
+    <div class="right">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
